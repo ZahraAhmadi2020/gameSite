@@ -1,0 +1,119 @@
+
+.navside{
+  min-height: 150px;
+}
+
+/* part2  */
+.sidebar ul{
+  padding-left: 0 !important;
+  padding-right: 60px;
+}
+
+
+.sidebar li {
+
+  text-decoration-style: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+
+}
+
+.sidebar a:hover {
+  color: #f1f1f1 !important;
+   cursor: pointer;
+}
+.sidebar .icon{
+  font-size: 18px;
+}
+
+/* part 3 */
+.game-list {
+
+  border: 1px solid rgb(63, 63, 63);
+  border-radius: 5px;
+
+  padding:15px 10px;
+  background-color: rgb(23, 23, 23);
+
+}
+.a-text {
+  font-size: 12px;
+  opacity: 60%;
+}
+
+.dropHover {
+
+  color: white;
+
+  font-size: 15px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropped {
+  display: none;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #2b2a2a;
+  min-width: 130px;
+  min-height: 200px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-right: 0 !important;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropped .deposit{
+  color: #818181;
+
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropped {
+  display: block;
+}
+
+
+
+
+
+.game-img {
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+
+}
+.game a {
+  color: #818181;
+  text-decoration: none;
+}
+
+.game a:hover {
+  color: #f1f1f1 !important;
+  cursor: pointer;
+}
+
+
+/* part4 */
+.signout {
+  justify-content: flex-end;
+ margin-top: 100px;
+ float: right;
+ margin-bottom: 10px;
+ margin-right: 1px;
+}
+.signout button{
+  width: auto !important;
+  padding: 5px 10px;
+}

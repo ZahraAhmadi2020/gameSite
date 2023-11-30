@@ -1,0 +1,17 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  overflow-y: scroll;
+  place-items: center;
+  background-color: rgb(88, 58, 220);
+  max-width: 100%;
+  max-height: 100%;
+}
+

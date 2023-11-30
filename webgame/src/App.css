@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.web-page{
+ overflow: hidden !important;
+
+}
+.navigation {
+  padding-top: 10px;
+  border-right: 1px solid rgb(63, 63, 63);
+}
+
+.main-part {
+  padding-top: 10px;
+}
+
+.aside {
+
+  padding-top: 10px;
+  border-left: 1px solid rgb(63, 63, 63);
+}
